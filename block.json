@@ -1,0 +1,28 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "edo/am-table",
+	"version": "0.1",
+	"title": "Edo's AM Table",
+	"category": "embed",
+	"description": "Block to add remote data as table on the block editor.",
+	"keywords": [ "embed", "ajax", "Awesome Motive" ],
+	"supports": {
+		"customClassName": false,
+		"className": true,
+		"html": false,
+		"align": true,
+		"anchor": true
+	},
+	"attributes": {
+		"embedCode": {
+			"type": "string",
+			"source": "html",
+			"selector": "div.wp-block-edo-am-table"
+		}
+	},
+	"textdomain": "edo-am-table",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

@@ -1,0 +1,46 @@
+{
+    "name": "edo-am-table",
+    "version": "0.1.0",
+    "description": "Plugin to add remote data as table on the block editor.",
+    "author": "SuzukiEdo",
+    "license": "MIT",
+    "main": "build/index.js",
+    "scripts": {
+        "start": "webpack-dev-server --config=.webpack/webpack.config.dev.js",
+        "build": "webpack --config=.webpack/webpack.config.prod.js",
+        "lint:css": "stylelint \"**/*.{css,scss}\"",
+        "lint:js": "eslint \"**/*.js\"",
+        "lint": "npm run lint:js; npm run lint:css"
+    },
+    "dependencies": {
+        "@wordpress/block-editor": "^11.6.0",
+        "@wordpress/blocks": "^12.6.0",
+        "@wordpress/i18n": "^4.2.3",
+        "classnames": "^2.2.6",
+        "gsap": "^3.5.1",
+        "prismjs": "^1.25.0",
+        "sass-mq": "^6.0.0"
+    },
+    "devDependencies": {
+        "@wordpress/scripts": "^19.1.0",
+        "@humanmade/webpack-helpers": "^0.11.0",
+        "@babel/eslint-parser": "^7.21.3",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "eslint": "^5.16.0",
+        "eslint-config-react-app": "^3.0.8",
+        "eslint-plugin-flowtype": "^3.13.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jsdoc": "^29.2.0",
+        "eslint-plugin-jsx-a11y": "^6.3.1",
+        "eslint-plugin-react": "^7.21.4",
+        "eslint-plugin-react-hooks": "^4.1.2",
+        "eslint-plugin-sort-destructure-keys": "^1.3.5",
+        "sass": "^1.29.0",
+        "stylelint": "^13.7.2",
+        "@wordpress/stylelint-config": "^21.12.0",
+        "webpack": "^4.44.2",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    }
+}

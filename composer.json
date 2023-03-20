@@ -1,0 +1,25 @@
+{
+    "name": "suzukiedo/am_plugin",
+    "description": "Plugin developed for AM applicant challenge.",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+		{
+			"name": "Eduardo Kazuyo Suzuki",
+			"email": "edo.suzuki@hotmail.com",
+			"homepage": "https://github.com/SuzukiEdo"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/SuzukiEdo/AM_plugin/issues",
+		"source": "https://github.com/SuzukiEdo/AM_plugin"
+	},
+    "require": {
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^2.3.0"
+    },
+    "scripts": {
+        "lint": "phpcs ."
+    }
+}
